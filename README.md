@@ -36,13 +36,14 @@ The script will print:
 - Sender IPs with reputation status
 
 ### Sample Output
-
+```
 From: sender@example.com
 To: you@example.org
 Return-Path: <sender@example.com>
 SPF: pass
 DKIM: pass
 IP Address: 192.0.2.1 (Clean)
+```
 
 ## Notes
 - The tool works with .eml or .txt files containing email headers.
